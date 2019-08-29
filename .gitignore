@@ -1,0 +1,13 @@
+#忽略Xcode本地用户配置信息
+*.xcuserstate
+*.xcuserdatad/
+xcuserdata/
+xcsharedata/
+.metadata/
+.DS_Store
+
+#忽略'pods/' 和 'Podfile.lock'
+Pods
+Pods/
+Podfile.lock
+!.gitignore

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A75801CD2717389B7A6ADBB /* Pods_MyAppDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A77C8AC698607122FD506835 /* Pods_MyAppDemo.framework */; };
 		200F32C923165E06000C64D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 200F32C823165E06000C64D3 /* AppDelegate.m */; };
 		200F32CC23165E06000C64D3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 200F32CB23165E06000C64D3 /* ViewController.m */; };
 		200F32CF23165E06000C64D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 200F32CD23165E06000C64D3 /* Main.storyboard */; };
@@ -19,6 +20,20 @@
 		200F33022316629C000C64D3 /* YiCheTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 200F33002316629C000C64D3 /* YiCheTableViewCell.m */; };
 		200F33032316629C000C64D3 /* YiCheTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 200F33012316629C000C64D3 /* YiCheTableViewCell.xib */; };
 		200F3307231667E0000C64D3 /* 汽车.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 200F3306231667E0000C64D3 /* 汽车.jpg */; };
+		200F3316231778FD000C64D3 /* ScrollStringViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 200F3315231778FD000C64D3 /* ScrollStringViewController.m */; };
+		200F33192317A32E000C64D3 /* 字符串流动图.png in Resources */ = {isa = PBXBuildFile; fileRef = 200F33182317A32E000C64D3 /* 字符串流动图.png */; };
+		200F334E2317B323000C64D3 /* RiLiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 200F334D2317B323000C64D3 /* RiLiViewController.m */; };
+		200F335F2317B3DD000C64D3 /* NSDate+FSCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 200F33512317B3DD000C64D3 /* NSDate+FSCalendar.m */; };
+		200F33602317B3DD000C64D3 /* FSCalendarDateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 200F33522317B3DD000C64D3 /* FSCalendarDateModel.m */; };
+		200F33612317B3DD000C64D3 /* FSCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 200F33542317B3DD000C64D3 /* FSCalendarView.m */; };
+		200F33622317B3DD000C64D3 /* FSCalendarDayModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 200F33552317B3DD000C64D3 /* FSCalendarDayModel.m */; };
+		200F33632317B3DD000C64D3 /* FSCalendarScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 200F33562317B3DD000C64D3 /* FSCalendarScrollView.m */; };
+		200F33642317B3DD000C64D3 /* FSCalendarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 200F33572317B3DD000C64D3 /* FSCalendarCell.m */; };
+		200F33652317B3DD000C64D3 /* FSCalendarHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 200F335C2317B3DD000C64D3 /* FSCalendarHeaderView.m */; };
+		200F336D2317BF42000C64D3 /* YTScratchyCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 200F336A2317BF42000C64D3 /* YTScratchyCard.m */; };
+		200F336E2317BF42000C64D3 /* UIImage(Extension).m in Sources */ = {isa = PBXBuildFile; fileRef = 200F336B2317BF42000C64D3 /* UIImage(Extension).m */; };
+		200F33712317BF52000C64D3 /* GuaGuaLeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 200F33702317BF52000C64D3 /* GuaGuaLeViewController.m */; };
+		200F33732317C319000C64D3 /* 刮刮乐.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 200F33722317C319000C64D3 /* 刮刮乐.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +54,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		160FB6B144E2E2FE0CD3D1E6 /* Pods-MyAppDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyAppDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyAppDemo/Pods-MyAppDemo.release.xcconfig"; sourceTree = "<group>"; };
 		200F32C423165E06000C64D3 /* MyAppDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyAppDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		200F32C723165E06000C64D3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		200F32C823165E06000C64D3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -64,6 +80,36 @@
 		200F330A23166959000C64D3 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		200F330B231669C2000C64D3 /* SizeMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SizeMacro.h; sourceTree = "<group>"; };
 		200F330C23166C29000C64D3 /* FunctionMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FunctionMacro.h; sourceTree = "<group>"; };
+		200F3314231778FD000C64D3 /* ScrollStringViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScrollStringViewController.h; sourceTree = "<group>"; };
+		200F3315231778FD000C64D3 /* ScrollStringViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollStringViewController.m; sourceTree = "<group>"; };
+		200F331723178253000C64D3 /* HeaderImpot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeaderImpot.h; sourceTree = "<group>"; };
+		200F33182317A32E000C64D3 /* 字符串流动图.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "字符串流动图.png"; sourceTree = "<group>"; };
+		200F334C2317B323000C64D3 /* RiLiViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RiLiViewController.h; sourceTree = "<group>"; };
+		200F334D2317B323000C64D3 /* RiLiViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RiLiViewController.m; sourceTree = "<group>"; };
+		200F33502317B3DD000C64D3 /* CalendarMacroHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarMacroHeader.h; sourceTree = "<group>"; };
+		200F33512317B3DD000C64D3 /* NSDate+FSCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+FSCalendar.m"; sourceTree = "<group>"; };
+		200F33522317B3DD000C64D3 /* FSCalendarDateModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarDateModel.m; sourceTree = "<group>"; };
+		200F33532317B3DD000C64D3 /* FSCalendarHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarHeaderView.h; sourceTree = "<group>"; };
+		200F33542317B3DD000C64D3 /* FSCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarView.m; sourceTree = "<group>"; };
+		200F33552317B3DD000C64D3 /* FSCalendarDayModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarDayModel.m; sourceTree = "<group>"; };
+		200F33562317B3DD000C64D3 /* FSCalendarScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarScrollView.m; sourceTree = "<group>"; };
+		200F33572317B3DD000C64D3 /* FSCalendarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarCell.m; sourceTree = "<group>"; };
+		200F33582317B3DD000C64D3 /* NSDate+FSCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+FSCalendar.h"; sourceTree = "<group>"; };
+		200F33592317B3DD000C64D3 /* FSCalendarDateModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarDateModel.h; sourceTree = "<group>"; };
+		200F335A2317B3DD000C64D3 /* FSCalendarDayModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarDayModel.h; sourceTree = "<group>"; };
+		200F335B2317B3DD000C64D3 /* FSCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarView.h; sourceTree = "<group>"; };
+		200F335C2317B3DD000C64D3 /* FSCalendarHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarHeaderView.m; sourceTree = "<group>"; };
+		200F335D2317B3DD000C64D3 /* FSCalendarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarCell.h; sourceTree = "<group>"; };
+		200F335E2317B3DD000C64D3 /* FSCalendarScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarScrollView.h; sourceTree = "<group>"; };
+		200F33692317BF42000C64D3 /* UIImage(Extension).h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage(Extension).h"; sourceTree = "<group>"; };
+		200F336A2317BF42000C64D3 /* YTScratchyCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTScratchyCard.m; sourceTree = "<group>"; };
+		200F336B2317BF42000C64D3 /* UIImage(Extension).m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage(Extension).m"; sourceTree = "<group>"; };
+		200F336C2317BF42000C64D3 /* YTScratchyCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTScratchyCard.h; sourceTree = "<group>"; };
+		200F336F2317BF52000C64D3 /* GuaGuaLeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GuaGuaLeViewController.h; sourceTree = "<group>"; };
+		200F33702317BF52000C64D3 /* GuaGuaLeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuaGuaLeViewController.m; sourceTree = "<group>"; };
+		200F33722317C319000C64D3 /* 刮刮乐.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "刮刮乐.jpg"; sourceTree = "<group>"; };
+		61EA6464C748BE11C9BD1490 /* Pods-MyAppDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyAppDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyAppDemo/Pods-MyAppDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		A77C8AC698607122FD506835 /* Pods_MyAppDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyAppDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +117,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A75801CD2717389B7A6ADBB /* Pods_MyAppDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,6 +145,8 @@
 				200F32DF23165E09000C64D3 /* MyAppDemoTests */,
 				200F32EA23165E09000C64D3 /* MyAppDemoUITests */,
 				200F32C523165E06000C64D3 /* Products */,
+				4C787F4B42FC543DFC44C1DE /* Pods */,
+				326EFDF8278C2348C29EEE84 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -117,6 +166,9 @@
 				200F33082316690D000C64D3 /* Macro */,
 				200F3304231667CF000C64D3 /* Resource */,
 				200F32F9231661DA000C64D3 /* 易车app首页广告cell透视 */,
+				200F330D2317788B000C64D3 /* 字符串滚动控件 */,
+				200F33332317B30D000C64D3 /* 日历 */,
+				200F33662317BF26000C64D3 /* 刮刮乐 */,
 				200F32C723165E06000C64D3 /* AppDelegate.h */,
 				200F32C823165E06000C64D3 /* AppDelegate.m */,
 				200F32CA23165E06000C64D3 /* ViewController.h */,
@@ -188,6 +240,8 @@
 			isa = PBXGroup;
 			children = (
 				200F3306231667E0000C64D3 /* 汽车.jpg */,
+				200F33182317A32E000C64D3 /* 字符串流动图.png */,
+				200F33722317C319000C64D3 /* 刮刮乐.jpg */,
 			);
 			path = Image;
 			sourceTree = "<group>";
@@ -198,8 +252,112 @@
 				200F330A23166959000C64D3 /* PrefixHeader.pch */,
 				200F330B231669C2000C64D3 /* SizeMacro.h */,
 				200F330C23166C29000C64D3 /* FunctionMacro.h */,
+				200F331723178253000C64D3 /* HeaderImpot.h */,
 			);
 			path = Macro;
+			sourceTree = "<group>";
+		};
+		200F330D2317788B000C64D3 /* 字符串滚动控件 */ = {
+			isa = PBXGroup;
+			children = (
+				200F330E2317788B000C64D3 /* ViewController */,
+			);
+			path = "字符串滚动控件";
+			sourceTree = "<group>";
+		};
+		200F330E2317788B000C64D3 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				200F3314231778FD000C64D3 /* ScrollStringViewController.h */,
+				200F3315231778FD000C64D3 /* ScrollStringViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		200F33332317B30D000C64D3 /* 日历 */ = {
+			isa = PBXGroup;
+			children = (
+				200F334F2317B3DD000C64D3 /* FSCalendar */,
+				200F33442317B30D000C64D3 /* ViewController */,
+			);
+			path = "日历";
+			sourceTree = "<group>";
+		};
+		200F33442317B30D000C64D3 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				200F334C2317B323000C64D3 /* RiLiViewController.h */,
+				200F334D2317B323000C64D3 /* RiLiViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		200F334F2317B3DD000C64D3 /* FSCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				200F33502317B3DD000C64D3 /* CalendarMacroHeader.h */,
+				200F335D2317B3DD000C64D3 /* FSCalendarCell.h */,
+				200F33572317B3DD000C64D3 /* FSCalendarCell.m */,
+				200F33592317B3DD000C64D3 /* FSCalendarDateModel.h */,
+				200F33522317B3DD000C64D3 /* FSCalendarDateModel.m */,
+				200F335A2317B3DD000C64D3 /* FSCalendarDayModel.h */,
+				200F33552317B3DD000C64D3 /* FSCalendarDayModel.m */,
+				200F33532317B3DD000C64D3 /* FSCalendarHeaderView.h */,
+				200F335C2317B3DD000C64D3 /* FSCalendarHeaderView.m */,
+				200F335E2317B3DD000C64D3 /* FSCalendarScrollView.h */,
+				200F33562317B3DD000C64D3 /* FSCalendarScrollView.m */,
+				200F335B2317B3DD000C64D3 /* FSCalendarView.h */,
+				200F33542317B3DD000C64D3 /* FSCalendarView.m */,
+				200F33582317B3DD000C64D3 /* NSDate+FSCalendar.h */,
+				200F33512317B3DD000C64D3 /* NSDate+FSCalendar.m */,
+			);
+			path = FSCalendar;
+			sourceTree = "<group>";
+		};
+		200F33662317BF26000C64D3 /* 刮刮乐 */ = {
+			isa = PBXGroup;
+			children = (
+				200F33682317BF42000C64D3 /* vender */,
+				200F33672317BF26000C64D3 /* ViewController */,
+			);
+			path = "刮刮乐";
+			sourceTree = "<group>";
+		};
+		200F33672317BF26000C64D3 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				200F336F2317BF52000C64D3 /* GuaGuaLeViewController.h */,
+				200F33702317BF52000C64D3 /* GuaGuaLeViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		200F33682317BF42000C64D3 /* vender */ = {
+			isa = PBXGroup;
+			children = (
+				200F33692317BF42000C64D3 /* UIImage(Extension).h */,
+				200F336B2317BF42000C64D3 /* UIImage(Extension).m */,
+				200F336C2317BF42000C64D3 /* YTScratchyCard.h */,
+				200F336A2317BF42000C64D3 /* YTScratchyCard.m */,
+			);
+			path = vender;
+			sourceTree = "<group>";
+		};
+		326EFDF8278C2348C29EEE84 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A77C8AC698607122FD506835 /* Pods_MyAppDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4C787F4B42FC543DFC44C1DE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				61EA6464C748BE11C9BD1490 /* Pods-MyAppDemo.debug.xcconfig */,
+				160FB6B144E2E2FE0CD3D1E6 /* Pods-MyAppDemo.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,9 +367,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 200F32F023165E09000C64D3 /* Build configuration list for PBXNativeTarget "MyAppDemo" */;
 			buildPhases = (
+				98B5B333F27397D55C724732 /* [CP] Check Pods Manifest.lock */,
 				200F32C023165E06000C64D3 /* Sources */,
 				200F32C123165E06000C64D3 /* Frameworks */,
 				200F32C223165E06000C64D3 /* Resources */,
+				DBED23B22548A3B796007F78 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -307,6 +467,8 @@
 			files = (
 				200F33032316629C000C64D3 /* YiCheTableViewCell.xib in Resources */,
 				200F32D423165E09000C64D3 /* LaunchScreen.storyboard in Resources */,
+				200F33732317C319000C64D3 /* 刮刮乐.jpg in Resources */,
+				200F33192317A32E000C64D3 /* 字符串流动图.png in Resources */,
 				200F32D123165E09000C64D3 /* Assets.xcassets in Resources */,
 				200F32CF23165E06000C64D3 /* Main.storyboard in Resources */,
 				200F3307231667E0000C64D3 /* 汽车.jpg in Resources */,
@@ -329,16 +491,79 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		98B5B333F27397D55C724732 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyAppDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBED23B22548A3B796007F78 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MyAppDemo/Pods-MyAppDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/LMJVerticalScrollText/LMJVerticalScrollText.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveObjC/ReactiveObjC.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LMJVerticalScrollText.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveObjC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyAppDemo/Pods-MyAppDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		200F32C023165E06000C64D3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				200F33652317B3DD000C64D3 /* FSCalendarHeaderView.m in Sources */,
+				200F3316231778FD000C64D3 /* ScrollStringViewController.m in Sources */,
 				200F32CC23165E06000C64D3 /* ViewController.m in Sources */,
+				200F334E2317B323000C64D3 /* RiLiViewController.m in Sources */,
+				200F33602317B3DD000C64D3 /* FSCalendarDateModel.m in Sources */,
+				200F33712317BF52000C64D3 /* GuaGuaLeViewController.m in Sources */,
+				200F335F2317B3DD000C64D3 /* NSDate+FSCalendar.m in Sources */,
+				200F33612317B3DD000C64D3 /* FSCalendarView.m in Sources */,
+				200F33632317B3DD000C64D3 /* FSCalendarScrollView.m in Sources */,
+				200F336D2317BF42000C64D3 /* YTScratchyCard.m in Sources */,
 				200F32D723165E09000C64D3 /* main.m in Sources */,
 				200F32FE2316627A000C64D3 /* YiCheTableViewController.m in Sources */,
 				200F32C923165E06000C64D3 /* AppDelegate.m in Sources */,
 				200F33022316629C000C64D3 /* YiCheTableViewCell.m in Sources */,
+				200F33642317B3DD000C64D3 /* FSCalendarCell.m in Sources */,
+				200F336E2317BF42000C64D3 /* UIImage(Extension).m in Sources */,
+				200F33622317B3DD000C64D3 /* FSCalendarDayModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +732,7 @@
 		};
 		200F32F123165E09000C64D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61EA6464C748BE11C9BD1490 /* Pods-MyAppDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +753,7 @@
 		};
 		200F32F223165E09000C64D3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 160FB6B144E2E2FE0CD3D1E6 /* Pods-MyAppDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
