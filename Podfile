@@ -23,7 +23,8 @@ target 'MyAppDemo' do
     pod 'LMJVerticalScrollText'
     #密码,验证码输入框
     pod 'CRBoxInputView'
-#    pod 'BearSkill', :git => 'https://github.com/BearRan/BearSkill.git', :commit => 'a48be2d'
+    #快速贝塞尔曲线绘制工具
+    pod 'AxcDrawPath_Tool'
 
 
 end

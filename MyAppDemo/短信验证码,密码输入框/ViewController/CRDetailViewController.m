@@ -1,7 +1,7 @@
 //
 //  CRDetailViewController.m
 //  CRBoxInputView_Example
-//
+//  https://github.com/CRAnimation/CRBoxInputView
 //  Created by Chobits on 2019/1/7.
 //  Copyright © 2019 BearRan. All rights reserved.
 //

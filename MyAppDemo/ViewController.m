@@ -15,7 +15,8 @@
 #import "DianZanViewController.h"//点赞动画
 #import "DianZanButtonViewController.h" //点赞按钮动画
 #import "CRListViewController.h"//短信验证码,密码输入框
-
+#import "ShengBoViewController.h"//声波动画
+#import "DrawPathViewController.h"//快速贝塞尔曲线绘制工具
 @interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
 @property(nonatomic, strong) NSMutableArray *dataArray;
 @end
@@ -37,6 +38,9 @@
         [_dataArray addObject:@"点赞动画"];
         [_dataArray addObject:@"点赞按钮动画"];
         [_dataArray addObject:@"短信验证码,密码输入框"];
+        [_dataArray addObject:@"声波动画"];
+        [_dataArray addObject:@"快速贝塞尔曲线绘制工具"];
+        
     }
     return _dataArray;
 }
@@ -96,6 +100,38 @@
     }
     else if ([text isEqualToString:@"短信验证码,密码输入框"]) {
         CRListViewController *vc = [[CRListViewController alloc] init];
+        [self.navigationController pushViewController:vc animated:YES];
+    }
+    else if ([text isEqualToString:@"声波动画"]) {
+        ShengBoViewController *vc = [[ShengBoViewController alloc] init];
+        [self.navigationController pushViewController:vc animated:YES];
+    }
+    else if ([text isEqualToString:@"快速贝塞尔曲线绘制工具"]) {
+        DrawPathViewController *vc = [[DrawPathViewController alloc] init];
+        [self.navigationController pushViewController:vc animated:YES];
+    }
+    else if ([text isEqualToString:@""]) {
+        DianZanButtonViewController *vc = [[DianZanButtonViewController alloc] init];
+        [self.navigationController pushViewController:vc animated:YES];
+    }
+    else if ([text isEqualToString:@""]) {
+        DianZanButtonViewController *vc = [[DianZanButtonViewController alloc] init];
+        [self.navigationController pushViewController:vc animated:YES];
+    }
+    else if ([text isEqualToString:@""]) {
+        DianZanButtonViewController *vc = [[DianZanButtonViewController alloc] init];
+        [self.navigationController pushViewController:vc animated:YES];
+    }
+    else if ([text isEqualToString:@""]) {
+        DianZanButtonViewController *vc = [[DianZanButtonViewController alloc] init];
+        [self.navigationController pushViewController:vc animated:YES];
+    }
+    else if ([text isEqualToString:@""]) {
+        DianZanButtonViewController *vc = [[DianZanButtonViewController alloc] init];
+        [self.navigationController pushViewController:vc animated:YES];
+    }
+    else if ([text isEqualToString:@""]) {
+        DianZanButtonViewController *vc = [[DianZanButtonViewController alloc] init];
         [self.navigationController pushViewController:vc animated:YES];
     }
     else if ([text isEqualToString:@""]) {

@@ -48,6 +48,17 @@
 		20479E882319078600AB2E05 /* CRListVCCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 20479E872319078600AB2E05 /* CRListVCCell.m */; };
 		20479E8C231907C000AB2E05 /* CRBoxInputModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 20479E8B231907C000AB2E05 /* CRBoxInputModel.m */; };
 		20479E90231907F900AB2E05 /* CRConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 20479E8F231907F900AB2E05 /* CRConstant.m */; };
+		20479E9623191C6700AB2E05 /* JHSoundWaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20479E9523191C6700AB2E05 /* JHSoundWaveView.m */; };
+		20479E9A23191CA000AB2E05 /* ShengBoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20479E9923191CA000AB2E05 /* ShengBoViewController.m */; };
+		20479EA7231927DB00AB2E05 /* ListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 20479E9E231927DB00AB2E05 /* ListModel.m */; };
+		20479EA8231927DB00AB2E05 /* CellDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20479EA2231927DB00AB2E05 /* CellDrawView.m */; };
+		20479EA9231927DB00AB2E05 /* MainCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20479EA4231927DB00AB2E05 /* MainCollectionViewCell.xib */; };
+		20479EAA231927DB00AB2E05 /* MainCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 20479EA5231927DB00AB2E05 /* MainCollectionViewCell.m */; };
+		20479EAD231927FE00AB2E05 /* DrawPathViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20479EAC231927FE00AB2E05 /* DrawPathViewController.m */; };
+		20479ECC2319290200AB2E05 /* AxcCAAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 20479EC12319290200AB2E05 /* AxcCAAnimation.m */; };
+		20479ECD2319290200AB2E05 /* AxcPolarAxis.m in Sources */ = {isa = PBXBuildFile; fileRef = 20479EC62319290200AB2E05 /* AxcPolarAxis.m */; };
+		20479ECE2319290200AB2E05 /* AxcDrawPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 20479EC72319290200AB2E05 /* AxcDrawPath.m */; };
+		20479ECF2319290200AB2E05 /* AxcCustomDrawPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 20479ECA2319290200AB2E05 /* AxcCustomDrawPath.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -150,6 +161,29 @@
 		20479E8B231907C000AB2E05 /* CRBoxInputModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRBoxInputModel.m; sourceTree = "<group>"; };
 		20479E8E231907F900AB2E05 /* CRConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRConstant.h; sourceTree = "<group>"; };
 		20479E8F231907F900AB2E05 /* CRConstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRConstant.m; sourceTree = "<group>"; };
+		20479E9423191C6700AB2E05 /* JHSoundWaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHSoundWaveView.h; sourceTree = "<group>"; };
+		20479E9523191C6700AB2E05 /* JHSoundWaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHSoundWaveView.m; sourceTree = "<group>"; };
+		20479E9823191CA000AB2E05 /* ShengBoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShengBoViewController.h; sourceTree = "<group>"; };
+		20479E9923191CA000AB2E05 /* ShengBoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShengBoViewController.m; sourceTree = "<group>"; };
+		20479E9D231927DB00AB2E05 /* ListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListModel.h; sourceTree = "<group>"; };
+		20479E9E231927DB00AB2E05 /* ListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListModel.m; sourceTree = "<group>"; };
+		20479EA0231927DB00AB2E05 /* MainCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainCollectionViewCell.h; sourceTree = "<group>"; };
+		20479EA2231927DB00AB2E05 /* CellDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellDrawView.m; sourceTree = "<group>"; };
+		20479EA3231927DB00AB2E05 /* CellDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellDrawView.h; sourceTree = "<group>"; };
+		20479EA4231927DB00AB2E05 /* MainCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainCollectionViewCell.xib; sourceTree = "<group>"; };
+		20479EA5231927DB00AB2E05 /* MainCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainCollectionViewCell.m; sourceTree = "<group>"; };
+		20479EAB231927FE00AB2E05 /* DrawPathViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawPathViewController.h; sourceTree = "<group>"; };
+		20479EAC231927FE00AB2E05 /* DrawPathViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawPathViewController.m; sourceTree = "<group>"; };
+		20479EBE2319290200AB2E05 /* AxcDrawPathTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AxcDrawPathTool.h; sourceTree = "<group>"; };
+		20479EC02319290200AB2E05 /* AxcCAAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AxcCAAnimation.h; sourceTree = "<group>"; };
+		20479EC12319290200AB2E05 /* AxcCAAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AxcCAAnimation.m; sourceTree = "<group>"; };
+		20479EC22319290200AB2E05 /* AxcDrawDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AxcDrawDefine.h; sourceTree = "<group>"; };
+		20479EC52319290200AB2E05 /* AxcPolarAxis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AxcPolarAxis.h; sourceTree = "<group>"; };
+		20479EC62319290200AB2E05 /* AxcPolarAxis.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AxcPolarAxis.m; sourceTree = "<group>"; };
+		20479EC72319290200AB2E05 /* AxcDrawPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AxcDrawPath.m; sourceTree = "<group>"; };
+		20479EC82319290200AB2E05 /* AxcDrawPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AxcDrawPath.h; sourceTree = "<group>"; };
+		20479ECA2319290200AB2E05 /* AxcCustomDrawPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AxcCustomDrawPath.m; sourceTree = "<group>"; };
+		20479ECB2319290200AB2E05 /* AxcCustomDrawPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AxcCustomDrawPath.h; sourceTree = "<group>"; };
 		61EA6464C748BE11C9BD1490 /* Pods-MyAppDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyAppDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyAppDemo/Pods-MyAppDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		A77C8AC698607122FD506835 /* Pods_MyAppDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyAppDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -215,6 +249,8 @@
 				20479E672318F5F500AB2E05 /* 点赞动画 */,
 				20479E712318FE3800AB2E05 /* 点赞按钮动画 */,
 				20479E7A231906C400AB2E05 /* 短信验证码,密码输入框 */,
+				20479E9123191C6700AB2E05 /* 声波动画 */,
+				20479E9B231927DB00AB2E05 /* 快速贝塞尔曲线绘制工具 */,
 				200F32C723165E06000C64D3 /* AppDelegate.h */,
 				200F32C823165E06000C64D3 /* AppDelegate.m */,
 				200F32CA23165E06000C64D3 /* ViewController.h */,
@@ -541,6 +577,131 @@
 			path = Constant;
 			sourceTree = "<group>";
 		};
+		20479E9123191C6700AB2E05 /* 声波动画 */ = {
+			isa = PBXGroup;
+			children = (
+				20479E9723191C8D00AB2E05 /* ViewController */,
+				20479E9323191C6700AB2E05 /* JHSoundWaveView */,
+			);
+			path = "声波动画";
+			sourceTree = "<group>";
+		};
+		20479E9323191C6700AB2E05 /* JHSoundWaveView */ = {
+			isa = PBXGroup;
+			children = (
+				20479E9423191C6700AB2E05 /* JHSoundWaveView.h */,
+				20479E9523191C6700AB2E05 /* JHSoundWaveView.m */,
+			);
+			path = JHSoundWaveView;
+			sourceTree = "<group>";
+		};
+		20479E9723191C8D00AB2E05 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				20479E9823191CA000AB2E05 /* ShengBoViewController.h */,
+				20479E9923191CA000AB2E05 /* ShengBoViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		20479E9B231927DB00AB2E05 /* 快速贝塞尔曲线绘制工具 */ = {
+			isa = PBXGroup;
+			children = (
+				20479EBD2319290200AB2E05 /* AxcDrawPathPackage */,
+				20479E9C231927DB00AB2E05 /* Model */,
+				20479E9F231927DB00AB2E05 /* View */,
+				20479EA6231927DB00AB2E05 /* ViewController */,
+			);
+			path = "快速贝塞尔曲线绘制工具";
+			sourceTree = "<group>";
+		};
+		20479E9C231927DB00AB2E05 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				20479E9D231927DB00AB2E05 /* ListModel.h */,
+				20479E9E231927DB00AB2E05 /* ListModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		20479E9F231927DB00AB2E05 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				20479EA1231927DB00AB2E05 /* DrawView */,
+				20479EA0231927DB00AB2E05 /* MainCollectionViewCell.h */,
+				20479EA5231927DB00AB2E05 /* MainCollectionViewCell.m */,
+				20479EA4231927DB00AB2E05 /* MainCollectionViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		20479EA1231927DB00AB2E05 /* DrawView */ = {
+			isa = PBXGroup;
+			children = (
+				20479EA2231927DB00AB2E05 /* CellDrawView.m */,
+				20479EA3231927DB00AB2E05 /* CellDrawView.h */,
+			);
+			path = DrawView;
+			sourceTree = "<group>";
+		};
+		20479EA6231927DB00AB2E05 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				20479EAB231927FE00AB2E05 /* DrawPathViewController.h */,
+				20479EAC231927FE00AB2E05 /* DrawPathViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		20479EBD2319290200AB2E05 /* AxcDrawPathPackage */ = {
+			isa = PBXGroup;
+			children = (
+				20479EBE2319290200AB2E05 /* AxcDrawPathTool.h */,
+				20479EBF2319290200AB2E05 /* AxcCAAnimation */,
+				20479EC22319290200AB2E05 /* AxcDrawDefine.h */,
+				20479EC32319290200AB2E05 /* AxcDrawPath */,
+				20479EC92319290200AB2E05 /* AxcCustomDrawPath */,
+			);
+			path = AxcDrawPathPackage;
+			sourceTree = "<group>";
+		};
+		20479EBF2319290200AB2E05 /* AxcCAAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				20479EC02319290200AB2E05 /* AxcCAAnimation.h */,
+				20479EC12319290200AB2E05 /* AxcCAAnimation.m */,
+			);
+			path = AxcCAAnimation;
+			sourceTree = "<group>";
+		};
+		20479EC32319290200AB2E05 /* AxcDrawPath */ = {
+			isa = PBXGroup;
+			children = (
+				20479EC42319290200AB2E05 /* Tools */,
+				20479EC72319290200AB2E05 /* AxcDrawPath.m */,
+				20479EC82319290200AB2E05 /* AxcDrawPath.h */,
+			);
+			path = AxcDrawPath;
+			sourceTree = "<group>";
+		};
+		20479EC42319290200AB2E05 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				20479EC52319290200AB2E05 /* AxcPolarAxis.h */,
+				20479EC62319290200AB2E05 /* AxcPolarAxis.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		20479EC92319290200AB2E05 /* AxcCustomDrawPath */ = {
+			isa = PBXGroup;
+			children = (
+				20479ECA2319290200AB2E05 /* AxcCustomDrawPath.m */,
+				20479ECB2319290200AB2E05 /* AxcCustomDrawPath.h */,
+			);
+			path = AxcCustomDrawPath;
+			sourceTree = "<group>";
+		};
 		326EFDF8278C2348C29EEE84 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -670,6 +831,7 @@
 				200F32D123165E09000C64D3 /* Assets.xcassets in Resources */,
 				200F32CF23165E06000C64D3 /* Main.storyboard in Resources */,
 				200F3307231667E0000C64D3 /* 汽车.jpg in Resources */,
+				20479EA9231927DB00AB2E05 /* MainCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -715,6 +877,7 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-MyAppDemo/Pods-MyAppDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AxcDrawPath_Tool/AxcDrawPath_Tool.framework",
 				"${BUILT_PRODUCTS_DIR}/CRBoxInputView/CRBoxInputView.framework",
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
 				"${BUILT_PRODUCTS_DIR}/LMJVerticalScrollText/LMJVerticalScrollText.framework",
@@ -726,6 +889,7 @@
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AxcDrawPath_Tool.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CRBoxInputView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LMJVerticalScrollText.framework",
@@ -753,27 +917,37 @@
 				200F3316231778FD000C64D3 /* ScrollStringViewController.m in Sources */,
 				200F32CC23165E06000C64D3 /* ViewController.m in Sources */,
 				20479E8C231907C000AB2E05 /* CRBoxInputModel.m in Sources */,
+				20479EAD231927FE00AB2E05 /* DrawPathViewController.m in Sources */,
 				20479E812319074000AB2E05 /* CRListViewController.m in Sources */,
 				20479E652318D2B300AB2E05 /* WJCell.m in Sources */,
 				20479E752318FE6900AB2E05 /* DianZanButtonViewController.m in Sources */,
 				200F334E2317B323000C64D3 /* RiLiViewController.m in Sources */,
 				200F33602317B3DD000C64D3 /* FSCalendarDateModel.m in Sources */,
+				20479EAA231927DB00AB2E05 /* MainCollectionViewCell.m in Sources */,
+				20479ECD2319290200AB2E05 /* AxcPolarAxis.m in Sources */,
 				200F33712317BF52000C64D3 /* GuaGuaLeViewController.m in Sources */,
+				20479ECE2319290200AB2E05 /* AxcDrawPath.m in Sources */,
 				20479E90231907F900AB2E05 /* CRConstant.m in Sources */,
 				20479E5F2318D29B00AB2E05 /* WJColorChange.m in Sources */,
 				200F335F2317B3DD000C64D3 /* NSDate+FSCalendar.m in Sources */,
+				20479EA7231927DB00AB2E05 /* ListModel.m in Sources */,
+				20479E9A23191CA000AB2E05 /* ShengBoViewController.m in Sources */,
+				20479ECC2319290200AB2E05 /* AxcCAAnimation.m in Sources */,
 				200F33612317B3DD000C64D3 /* FSCalendarView.m in Sources */,
 				20479E842319074A00AB2E05 /* CRDetailViewController.m in Sources */,
 				20479E702318F66C00AB2E05 /* XBPraiseAnimation.m in Sources */,
 				200F33632317B3DD000C64D3 /* FSCalendarScrollView.m in Sources */,
 				200F336D2317BF42000C64D3 /* YTScratchyCard.m in Sources */,
 				200F32D723165E09000C64D3 /* main.m in Sources */,
+				20479ECF2319290200AB2E05 /* AxcCustomDrawPath.m in Sources */,
+				20479E9623191C6700AB2E05 /* JHSoundWaveView.m in Sources */,
 				200F32FE2316627A000C64D3 /* YiCheTableViewController.m in Sources */,
 				20479E882319078600AB2E05 /* CRListVCCell.m in Sources */,
 				20479E662318D2B300AB2E05 /* WJFlowLayout.m in Sources */,
 				200F32C923165E06000C64D3 /* AppDelegate.m in Sources */,
 				200F33022316629C000C64D3 /* YiCheTableViewCell.m in Sources */,
 				200F33642317B3DD000C64D3 /* FSCalendarCell.m in Sources */,
+				20479EA8231927DB00AB2E05 /* CellDrawView.m in Sources */,
 				20479E792318FE8500AB2E05 /* JHLikeButton.m in Sources */,
 				200F336E2317BF42000C64D3 /* UIImage(Extension).m in Sources */,
 				200F33622317B3DD000C64D3 /* FSCalendarDayModel.m in Sources */,
