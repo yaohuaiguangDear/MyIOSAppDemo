@@ -21,7 +21,10 @@ target 'MyAppDemo' do
     pod 'Masonry'
     #字符串滚动控件
     pod 'LMJVerticalScrollText'
-   
+    #密码,验证码输入框
+    pod 'CRBoxInputView'
+#    pod 'BearSkill', :git => 'https://github.com/BearRan/BearSkill.git', :commit => 'a48be2d'
+
 
 end
 

@@ -34,6 +34,20 @@
 		200F336E2317BF42000C64D3 /* UIImage(Extension).m in Sources */ = {isa = PBXBuildFile; fileRef = 200F336B2317BF42000C64D3 /* UIImage(Extension).m */; };
 		200F33712317BF52000C64D3 /* GuaGuaLeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 200F33702317BF52000C64D3 /* GuaGuaLeViewController.m */; };
 		200F33732317C319000C64D3 /* 刮刮乐.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 200F33722317C319000C64D3 /* 刮刮乐.jpg */; };
+		20479E532318D0E500AB2E05 /* YABColorChangeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20479E522318D0E500AB2E05 /* YABColorChangeViewController.m */; };
+		20479E562318D18200AB2E05 /* YABColorChangeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20479E552318D18200AB2E05 /* YABColorChangeView.m */; };
+		20479E5F2318D29B00AB2E05 /* WJColorChange.m in Sources */ = {isa = PBXBuildFile; fileRef = 20479E5D2318D29B00AB2E05 /* WJColorChange.m */; };
+		20479E652318D2B300AB2E05 /* WJCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 20479E612318D2B300AB2E05 /* WJCell.m */; };
+		20479E662318D2B300AB2E05 /* WJFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 20479E642318D2B300AB2E05 /* WJFlowLayout.m */; };
+		20479E6C2318F61500AB2E05 /* DianZanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20479E6B2318F61500AB2E05 /* DianZanViewController.m */; };
+		20479E702318F66C00AB2E05 /* XBPraiseAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 20479E6E2318F66C00AB2E05 /* XBPraiseAnimation.m */; };
+		20479E752318FE6900AB2E05 /* DianZanButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20479E742318FE6900AB2E05 /* DianZanButtonViewController.m */; };
+		20479E792318FE8500AB2E05 /* JHLikeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 20479E772318FE8500AB2E05 /* JHLikeButton.m */; };
+		20479E812319074000AB2E05 /* CRListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20479E802319074000AB2E05 /* CRListViewController.m */; };
+		20479E842319074A00AB2E05 /* CRDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20479E832319074A00AB2E05 /* CRDetailViewController.m */; };
+		20479E882319078600AB2E05 /* CRListVCCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 20479E872319078600AB2E05 /* CRListVCCell.m */; };
+		20479E8C231907C000AB2E05 /* CRBoxInputModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 20479E8B231907C000AB2E05 /* CRBoxInputModel.m */; };
+		20479E90231907F900AB2E05 /* CRConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 20479E8F231907F900AB2E05 /* CRConstant.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -108,6 +122,34 @@
 		200F336F2317BF52000C64D3 /* GuaGuaLeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GuaGuaLeViewController.h; sourceTree = "<group>"; };
 		200F33702317BF52000C64D3 /* GuaGuaLeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuaGuaLeViewController.m; sourceTree = "<group>"; };
 		200F33722317C319000C64D3 /* 刮刮乐.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "刮刮乐.jpg"; sourceTree = "<group>"; };
+		20479E512318D0E500AB2E05 /* YABColorChangeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YABColorChangeViewController.h; sourceTree = "<group>"; };
+		20479E522318D0E500AB2E05 /* YABColorChangeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YABColorChangeViewController.m; sourceTree = "<group>"; };
+		20479E542318D18200AB2E05 /* YABColorChangeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YABColorChangeView.h; sourceTree = "<group>"; };
+		20479E552318D18200AB2E05 /* YABColorChangeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YABColorChangeView.m; sourceTree = "<group>"; };
+		20479E5D2318D29B00AB2E05 /* WJColorChange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJColorChange.m; sourceTree = "<group>"; };
+		20479E5E2318D29B00AB2E05 /* WJColorChange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJColorChange.h; sourceTree = "<group>"; };
+		20479E612318D2B300AB2E05 /* WJCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJCell.m; sourceTree = "<group>"; };
+		20479E622318D2B300AB2E05 /* WJFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJFlowLayout.h; sourceTree = "<group>"; };
+		20479E632318D2B300AB2E05 /* WJCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJCell.h; sourceTree = "<group>"; };
+		20479E642318D2B300AB2E05 /* WJFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJFlowLayout.m; sourceTree = "<group>"; };
+		20479E6A2318F61500AB2E05 /* DianZanViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DianZanViewController.h; sourceTree = "<group>"; };
+		20479E6B2318F61500AB2E05 /* DianZanViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DianZanViewController.m; sourceTree = "<group>"; };
+		20479E6E2318F66C00AB2E05 /* XBPraiseAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBPraiseAnimation.m; sourceTree = "<group>"; };
+		20479E6F2318F66C00AB2E05 /* XBPraiseAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBPraiseAnimation.h; sourceTree = "<group>"; };
+		20479E732318FE6900AB2E05 /* DianZanButtonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DianZanButtonViewController.h; sourceTree = "<group>"; };
+		20479E742318FE6900AB2E05 /* DianZanButtonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DianZanButtonViewController.m; sourceTree = "<group>"; };
+		20479E772318FE8500AB2E05 /* JHLikeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHLikeButton.m; sourceTree = "<group>"; };
+		20479E782318FE8500AB2E05 /* JHLikeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHLikeButton.h; sourceTree = "<group>"; };
+		20479E7F2319074000AB2E05 /* CRListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRListViewController.h; sourceTree = "<group>"; };
+		20479E802319074000AB2E05 /* CRListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRListViewController.m; sourceTree = "<group>"; };
+		20479E822319074A00AB2E05 /* CRDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRDetailViewController.h; sourceTree = "<group>"; };
+		20479E832319074A00AB2E05 /* CRDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRDetailViewController.m; sourceTree = "<group>"; };
+		20479E862319078600AB2E05 /* CRListVCCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRListVCCell.h; sourceTree = "<group>"; };
+		20479E872319078600AB2E05 /* CRListVCCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRListVCCell.m; sourceTree = "<group>"; };
+		20479E8A231907C000AB2E05 /* CRBoxInputModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRBoxInputModel.h; sourceTree = "<group>"; };
+		20479E8B231907C000AB2E05 /* CRBoxInputModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRBoxInputModel.m; sourceTree = "<group>"; };
+		20479E8E231907F900AB2E05 /* CRConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRConstant.h; sourceTree = "<group>"; };
+		20479E8F231907F900AB2E05 /* CRConstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRConstant.m; sourceTree = "<group>"; };
 		61EA6464C748BE11C9BD1490 /* Pods-MyAppDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyAppDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyAppDemo/Pods-MyAppDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		A77C8AC698607122FD506835 /* Pods_MyAppDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyAppDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -169,6 +211,10 @@
 				200F330D2317788B000C64D3 /* 字符串滚动控件 */,
 				200F33332317B30D000C64D3 /* 日历 */,
 				200F33662317BF26000C64D3 /* 刮刮乐 */,
+				20479E4E2318D0CE00AB2E05 /* 界面滑动颜色跟随渐变 */,
+				20479E672318F5F500AB2E05 /* 点赞动画 */,
+				20479E712318FE3800AB2E05 /* 点赞按钮动画 */,
+				20479E7A231906C400AB2E05 /* 短信验证码,密码输入框 */,
 				200F32C723165E06000C64D3 /* AppDelegate.h */,
 				200F32C823165E06000C64D3 /* AppDelegate.m */,
 				200F32CA23165E06000C64D3 /* ViewController.h */,
@@ -341,6 +387,158 @@
 				200F336A2317BF42000C64D3 /* YTScratchyCard.m */,
 			);
 			path = vender;
+			sourceTree = "<group>";
+		};
+		20479E4E2318D0CE00AB2E05 /* 界面滑动颜色跟随渐变 */ = {
+			isa = PBXGroup;
+			children = (
+				20479E4F2318D0CE00AB2E05 /* YABColorChangeView */,
+				20479E502318D0CE00AB2E05 /* ViewController */,
+			);
+			path = "界面滑动颜色跟随渐变";
+			sourceTree = "<group>";
+		};
+		20479E4F2318D0CE00AB2E05 /* YABColorChangeView */ = {
+			isa = PBXGroup;
+			children = (
+				20479E5C2318D29B00AB2E05 /* ColorChangeTool */,
+				20479E602318D2B300AB2E05 /* View */,
+				20479E542318D18200AB2E05 /* YABColorChangeView.h */,
+				20479E552318D18200AB2E05 /* YABColorChangeView.m */,
+			);
+			path = YABColorChangeView;
+			sourceTree = "<group>";
+		};
+		20479E502318D0CE00AB2E05 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				20479E512318D0E500AB2E05 /* YABColorChangeViewController.h */,
+				20479E522318D0E500AB2E05 /* YABColorChangeViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		20479E5C2318D29B00AB2E05 /* ColorChangeTool */ = {
+			isa = PBXGroup;
+			children = (
+				20479E5E2318D29B00AB2E05 /* WJColorChange.h */,
+				20479E5D2318D29B00AB2E05 /* WJColorChange.m */,
+			);
+			path = ColorChangeTool;
+			sourceTree = "<group>";
+		};
+		20479E602318D2B300AB2E05 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				20479E632318D2B300AB2E05 /* WJCell.h */,
+				20479E612318D2B300AB2E05 /* WJCell.m */,
+				20479E622318D2B300AB2E05 /* WJFlowLayout.h */,
+				20479E642318D2B300AB2E05 /* WJFlowLayout.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		20479E672318F5F500AB2E05 /* 点赞动画 */ = {
+			isa = PBXGroup;
+			children = (
+				20479E6D2318F66C00AB2E05 /* XBPraiseAnimation */,
+				20479E692318F5F500AB2E05 /* ViewController */,
+			);
+			path = "点赞动画";
+			sourceTree = "<group>";
+		};
+		20479E692318F5F500AB2E05 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				20479E6A2318F61500AB2E05 /* DianZanViewController.h */,
+				20479E6B2318F61500AB2E05 /* DianZanViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		20479E6D2318F66C00AB2E05 /* XBPraiseAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				20479E6E2318F66C00AB2E05 /* XBPraiseAnimation.m */,
+				20479E6F2318F66C00AB2E05 /* XBPraiseAnimation.h */,
+			);
+			path = XBPraiseAnimation;
+			sourceTree = "<group>";
+		};
+		20479E712318FE3800AB2E05 /* 点赞按钮动画 */ = {
+			isa = PBXGroup;
+			children = (
+				20479E722318FE5100AB2E05 /* ViewController */,
+			);
+			path = "点赞按钮动画";
+			sourceTree = "<group>";
+		};
+		20479E722318FE5100AB2E05 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				20479E762318FE8500AB2E05 /* JHLikeButton */,
+				20479E732318FE6900AB2E05 /* DianZanButtonViewController.h */,
+				20479E742318FE6900AB2E05 /* DianZanButtonViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		20479E762318FE8500AB2E05 /* JHLikeButton */ = {
+			isa = PBXGroup;
+			children = (
+				20479E782318FE8500AB2E05 /* JHLikeButton.h */,
+				20479E772318FE8500AB2E05 /* JHLikeButton.m */,
+			);
+			path = JHLikeButton;
+			sourceTree = "<group>";
+		};
+		20479E7A231906C400AB2E05 /* 短信验证码,密码输入框 */ = {
+			isa = PBXGroup;
+			children = (
+				20479E8D231907F500AB2E05 /* Constant */,
+				20479E89231907B500AB2E05 /* Model */,
+				20479E852319077500AB2E05 /* View */,
+				20479E7B231906C400AB2E05 /* ViewController */,
+			);
+			path = "短信验证码,密码输入框";
+			sourceTree = "<group>";
+		};
+		20479E7B231906C400AB2E05 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				20479E7F2319074000AB2E05 /* CRListViewController.h */,
+				20479E802319074000AB2E05 /* CRListViewController.m */,
+				20479E822319074A00AB2E05 /* CRDetailViewController.h */,
+				20479E832319074A00AB2E05 /* CRDetailViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		20479E852319077500AB2E05 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				20479E862319078600AB2E05 /* CRListVCCell.h */,
+				20479E872319078600AB2E05 /* CRListVCCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		20479E89231907B500AB2E05 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				20479E8A231907C000AB2E05 /* CRBoxInputModel.h */,
+				20479E8B231907C000AB2E05 /* CRBoxInputModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		20479E8D231907F500AB2E05 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				20479E8E231907F900AB2E05 /* CRConstant.h */,
+				20479E8F231907F900AB2E05 /* CRConstant.m */,
+			);
+			path = Constant;
 			sourceTree = "<group>";
 		};
 		326EFDF8278C2348C29EEE84 /* Frameworks */ = {
@@ -517,6 +715,7 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-MyAppDemo/Pods-MyAppDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CRBoxInputView/CRBoxInputView.framework",
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
 				"${BUILT_PRODUCTS_DIR}/LMJVerticalScrollText/LMJVerticalScrollText.framework",
 				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
@@ -527,6 +726,7 @@
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CRBoxInputView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LMJVerticalScrollText.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
@@ -547,23 +747,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20479E562318D18200AB2E05 /* YABColorChangeView.m in Sources */,
 				200F33652317B3DD000C64D3 /* FSCalendarHeaderView.m in Sources */,
+				20479E532318D0E500AB2E05 /* YABColorChangeViewController.m in Sources */,
 				200F3316231778FD000C64D3 /* ScrollStringViewController.m in Sources */,
 				200F32CC23165E06000C64D3 /* ViewController.m in Sources */,
+				20479E8C231907C000AB2E05 /* CRBoxInputModel.m in Sources */,
+				20479E812319074000AB2E05 /* CRListViewController.m in Sources */,
+				20479E652318D2B300AB2E05 /* WJCell.m in Sources */,
+				20479E752318FE6900AB2E05 /* DianZanButtonViewController.m in Sources */,
 				200F334E2317B323000C64D3 /* RiLiViewController.m in Sources */,
 				200F33602317B3DD000C64D3 /* FSCalendarDateModel.m in Sources */,
 				200F33712317BF52000C64D3 /* GuaGuaLeViewController.m in Sources */,
+				20479E90231907F900AB2E05 /* CRConstant.m in Sources */,
+				20479E5F2318D29B00AB2E05 /* WJColorChange.m in Sources */,
 				200F335F2317B3DD000C64D3 /* NSDate+FSCalendar.m in Sources */,
 				200F33612317B3DD000C64D3 /* FSCalendarView.m in Sources */,
+				20479E842319074A00AB2E05 /* CRDetailViewController.m in Sources */,
+				20479E702318F66C00AB2E05 /* XBPraiseAnimation.m in Sources */,
 				200F33632317B3DD000C64D3 /* FSCalendarScrollView.m in Sources */,
 				200F336D2317BF42000C64D3 /* YTScratchyCard.m in Sources */,
 				200F32D723165E09000C64D3 /* main.m in Sources */,
 				200F32FE2316627A000C64D3 /* YiCheTableViewController.m in Sources */,
+				20479E882319078600AB2E05 /* CRListVCCell.m in Sources */,
+				20479E662318D2B300AB2E05 /* WJFlowLayout.m in Sources */,
 				200F32C923165E06000C64D3 /* AppDelegate.m in Sources */,
 				200F33022316629C000C64D3 /* YiCheTableViewCell.m in Sources */,
 				200F33642317B3DD000C64D3 /* FSCalendarCell.m in Sources */,
+				20479E792318FE8500AB2E05 /* JHLikeButton.m in Sources */,
 				200F336E2317BF42000C64D3 /* UIImage(Extension).m in Sources */,
 				200F33622317B3DD000C64D3 /* FSCalendarDayModel.m in Sources */,
+				20479E6C2318F61500AB2E05 /* DianZanViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
